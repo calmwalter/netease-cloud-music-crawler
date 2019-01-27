@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9a02ef-4f09-4978-9585-8cbe92516e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/music.py" afterDir="false" />
@@ -18,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
+            <state relative-caret-position="577">
               <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -52,8 +51,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="438" />
-    <option name="y" value="77" />
+    <option name="x" value="509" />
+    <option name="y" value="76" />
     <option name="width" value="1326" />
     <option name="height" value="917" />
   </component>
@@ -122,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548062646503</updated>
     </task>
+    <task id="LOCAL-00001" summary="加强了原来的版本，该版本可以直接爬取所有的榜单歌曲，并且修复了此前版本的bug">
+      <created>1548601034396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548601034396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -134,7 +141,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="438" y="77" width="1326" height="917" extended-state="0" />
+    <frame x="509" y="76" width="1326" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17934783" />
@@ -142,7 +149,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.743295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.038314175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -156,10 +163,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加强了原来的版本，该版本可以直接爬取所有的榜单歌曲，并且修复了此前版本的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="加强了原来的版本，该版本可以直接爬取所有的榜单歌曲，并且修复了此前版本的bug" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/music.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="577">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />

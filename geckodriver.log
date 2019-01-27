@@ -1934,3 +1934,39 @@ JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafc
 [GPU 13516
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1548601782204	mozrunner::runner	INFO	Running command: "E:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CALMWA~1\\AppData\\Local\\Temp\\rust_mozprofile.TlP5mG2lfUDR"
+1548601783415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548601783416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1548601784708	Marionette	INFO	Listening on port 59740
+1548601784993	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 133: unreachable code after return statement
+1548601794798	Marionette	INFO	Stopped listening on port 59740
+[Parent 14720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13364, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Parent 14720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14436, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1548601898958	mozrunner::runner	INFO	Running command: "E:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CALMWA~1\\AppData\\Local\\Temp\\rust_mozprofile.TP1VfFJUlLyG"
+1548601899358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548601899358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1548601900688	Marionette	INFO	Listening on port 59857
+1548601901120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 133: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_86994123ce247287ad52aafce6acdf9b.js?86994123ce247287ad52aafce6acdf9b, line 133: unreachable code after return statement
+1548601910807	Marionette	INFO	Stopped listening on port 59857
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

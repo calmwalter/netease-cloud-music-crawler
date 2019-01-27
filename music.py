@@ -37,8 +37,8 @@ def find_song(url):  # 获得音乐的名字和id
     info = []
     for i in range(len(lst)):
         song_id = re.sub(r'/song\?id=(.*?)', "", lst[i].find('span', attrs={'class': 'txt'}).find('a').get('href'))
-        song_name = lst[i].find('span', attrs={'class': 'txt'}).find('b').get('title')
-        singer = lst[i].find('div', attrs={'class': 'text', 'title': True}).get('title')
+        song_name = re.sub(r'(.*?)/(.*?)', " ", lst[i].find('span', attrs={'class': 'txt'}).find('b').get('title'))
+        singer = re.sub(r'(.*?)/(.*?)', " ", lst[i].find('div', attrs={'class': 'text', 'title': True}).get('title'))
         info.append((song_id, song_name, singer))
         print(song_id, song_name, singer)
     browser.close()
@@ -64,3 +64,4 @@ def download_music(info, billboard):  # 把音乐写入到文件
 
 for billboard in find_billboard():  # 执行运行操作
     download_music(find_song('https://music.163.com/#/discover/toplist?id='+billboard[0]), billboard[1])
+
